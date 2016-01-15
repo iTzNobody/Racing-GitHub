@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="64" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" name="Tileset2" tilewidth="64" tileheight="64" tilecount="20">
+  <image source="Tile/Tileset2.png" width="256" height="320"/>
+  <tile id="8">
+   <objectgroup draworder="index">
+    <object id="0" x="25" y="-34" width="63" height="70">
+     <ellipse/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="12">
+   <objectgroup draworder="index"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="21" name="BevelSet" tilewidth="64" tileheight="64" tilecount="8">
+  <image source="Tile/BevelSet.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="29" name="FinishLineSet" tilewidth="64" tileheight="64" tilecount="6">
+  <image source="Tile/FinishLineSet.png" width="64" height="384"/>
+ </tileset>
+ <tileset firstgid="35" name="Tileset2" tilewidth="64" tileheight="64" tilecount="20">
+  <image source="Tile/Tileset2.png" width="256" height="320"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2dtKw0AYhdHcWA/1DFJEPL7/QzqihV7UlEwnyY6ui0UKhQ6dL6XMn1XXdSsAAAAAAAAAAAAAAAAAABbrorgsnopN4+vX5z7/XH9zGrAHSdbFyYheDrx/FbAHScbu8apHVI83PaJ6vOtxdI+74rqRj53X93pU9Rhrj6Zca6n0yKJHFj2y6JFFjyz79ui265851c6j+tZqNS9b+jys9Xmw734f++z5F35vemTRI4seWc6779nSY/Ew4Fozj9qu1Yp52OH7fcr9mHv9NHPvx9zrp2l9dmlxntFjvv9nPfRIpkcWPbLUnl32XWvOE3qMa+j+6qHHf6JHFj2y6JFFjyx6ZNEjix5Z9Mgy9HnKjR6T92g5f0SPJdMjix5Zts9TjnmGchbwPQAAAAAAAAAApvQJuSX0Uw==
+  </data>
+ </layer>
+</map>
